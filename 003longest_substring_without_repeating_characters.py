@@ -21,3 +21,6 @@ class Solution(object):
         return l
 a = Solution()
 print(a.lengthOfLongestSubstring('dvdf'))
+
+
+print(a.lengthOfLongestSubstring('asdfgds'))
