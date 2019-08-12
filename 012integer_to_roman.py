@@ -20,7 +20,7 @@ class Solution(object):
             'I': 1
         }
         roman = ''
-        for symbol, val in sorted(lookup.items(), key = lambda t:t[1])[::-1]:
+        for symbol, val in sorted(lookup.items(), key = lambda t:t[1],reverse = True):
             print(symbol, val)
             while num >= val:
                 roman += symbol

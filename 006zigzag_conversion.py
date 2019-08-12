@@ -19,4 +19,21 @@ class Solution(object):
             idx += step
         return ''.join(res)
 a = Solution()
-print(a.convert('ABCDEFGHIJKL',3))
+print(a.convert('PAYPALISHIRING',3))
+
+
+# def isInteresting(s):
+#     offset = 0
+#     i = 0
+#     while i < len(s):
+#         try:
+#             offset = int(s[i])
+#         except:
+#             return False
+#         i += offset + 1
+#     if i == len(s):
+#         return True
+#     else:
+#         return False
+#
+# print(isInteresting("2444gray6hunter"))

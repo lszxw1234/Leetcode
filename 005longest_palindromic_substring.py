@@ -17,9 +17,9 @@ class Solution(object):
         :rtype: str
         """
         if not s:
-            return
+            return ""
         n = len(s)
-        if n == 1:
+        if n == 1 or n == 0:
             return s
         # Left index of the target substring
         l = 0
