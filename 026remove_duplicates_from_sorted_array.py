@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: int
         """
         dif_num = 1
-        if nums == []:
+        if not nums:
             return 0
 
         for i in range(len(nums)):
